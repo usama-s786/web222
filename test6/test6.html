@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/test6.js"></script>
+    <title>Test6</title>
+</head>
+<body>
+    <h2>Declaration:</h2>
+    <p>
+        I declare that this is my own work in accordance with Seneca Academic Policy. No part of this work has been copied manually or electronically from any other source (including 3rd party web sites) or distributed to other students. I acknowledge that by beginning this test, I will abide by the above. <br> <br> 
+        <b>Name:</b> <u>Usama Sidat</u> &nbsp; &nbsp; <b>Student Number:</b> <u>131034217</u>
+    </p>
+    <hr>
+    <h3>Test 6 – Practice with DOM</h3>
+    <button onclick="addlogo();">Add Image</button>
+    <br>
+    <div id="logo">
+        Every time user clicks the button "Add Image", a Seneca Logo will be added here.
+        <br>
+    </div>
+    <br>
+    <button onclick="addtable();">Add Table</button>
+    <br>
+    <div id="table" >
+        Every time user clicks the button "Add Table", a table will be added here.
+    </div>
+    <br>
+    <button onclick=congrats();>Congrats</button>
+    <br>
+    <div id="con">
+       <h3>This text will be changed to "Congrats", when user clicks the button "Congrats".</h3>
+    </div>
+
+    <mark>
+        <script>
+            var dt = new Date(document.lastModified);
+            document.write('This page was last updated on ' + dt.toLocaleString());
+        </script>
+    </mark>
+    
+</body>
+</html>

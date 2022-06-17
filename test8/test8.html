@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test8</title>
+    <link rel="stylesheet" href="./css/test8.css">
+</head>
+<body>
+    <h2>Declaration:</h2>
+
+    <p>I declare that this is my own work in accordance with Seneca Academic Policy. No part of this work has been copied
+    manually or electronically from any other source (including 3rd party web sites) or distributed to other students. I
+    acknowledge that by beginning this test, I will abide by the above.
+    <br>
+    <br>
+    <b>Name:</b>
+    <u>Usama Sidat</u>
+    &nbsp; &nbsp;
+    <b>Student Number:</b>
+    <u>131034217</u>
+    </p>
+    <hr>
+
+    <h3>Practice with CSS & Form</h3>
+    <fieldset>
+        <legend>Film Catalogue [add]</legend>
+        <form name="test8form" method="post" action="https://httpbin.org/post">
+            <label><span>*</span>IMDB:</label>
+            <input type="text" name="imdb" maxlength="10" required="required" autofocus placeholder="Enter IMDB">
+            <br><br>
+            <label> <span>*</span>Movie<br> &nbsp; Name:</label>
+            <input type="text" name="mname" required placeholder="Enter Movie Name">
+            <br><br>
+            <label>Duration:</label>
+            <input type="number" min="0" max="999" name="duration">
+            <br><br>
+            <label>Password:</label>
+            <input type="password" name="password">
+            <br><br>
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br><br>
+            <label>Type:</label>
+            <input type="radio" name="type" id="action">
+            <label style="text-align: left; width: auto;" for="action">Action</label>
+            <input type="radio" name="type" id="comedy">
+            <label style="text-align: left; width: auto" for="comedy">Comedy</label>
+            <input type="radio" name="type" id="other">
+            <label style="text-align: left; width: auto" for="other">Other</label>
+            <br><br>
+            <label>Media:</label>
+            <select name="mediatype" size="2">
+                <option selected value="1">Blu-Ray</option>
+                <option value="2">DVD</option>
+                <option value="3">Digital</option>
+                <option value="4">Others</option>
+            </select>
+            <br><br>
+            <label>Note:</label>
+            <textarea name="note" cols="30" rows="2"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Add Movie">
+            <input type="reset" value="Start Over">
+        </form>
+    </fieldset>
+    <footer>
+        <mark>
+            <script>
+                var dt = new Date(document.lastModified);
+                document.write('This page was last updated on ' + dt.toLocaleString());
+            </script>
+        </mark>
+    </footer>
+</body>
+</html>

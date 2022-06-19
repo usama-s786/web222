@@ -1,4 +1,4 @@
-# Web222 - Web Programming Principles.
+# WEB222 - Web Programming Principles.
 <br>
 
 **PLEASE DO NOT COPY FROM ANY OF THE FILES IN THIS REPOSITORY**

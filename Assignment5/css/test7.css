@@ -1,0 +1,34 @@
+body {
+  background-color: beige;
+  width: 80%;
+  text-align: center;
+  margin: 1em auto;
+  border: 2px dotted;
+  padding: 1em;
+}
+
+.left{
+    text-align: left;
+}
+
+table, th, td{       
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: gainsboro;
+}
+
+tbody{
+    background-color: greenyellow;
+}
+
+tfoot{
+    background-color: yellow;
+    color: red;
+}
+    
+

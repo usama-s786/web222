@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap");
+* {
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  background-image: url("../media/bg_farm.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 110%;
+  opacity: 0;
+  transition: opacity 2.6s;
+  min-width: 100%;
+  width: auto !important;
+  width: 100%;
+}
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  min-width: 1000px;
+}
+
+header {
+  background-color: rgb(22, 22, 30, 255);
+  padding: 20px 25px;
+  border-radius: 5px;
+}
+
+#title {
+  float: left;
+  margin-top: 10px;
+  color: aliceblue;
+  margin-right: 8px;
+}
+
+#logo {
+  float: left;
+  margin-right: 500px;
+  margin-top: -1px;
+}
+
+#quote {
+  color: aliceblue;
+  padding-top: 30px;
+  margin-bottom: -10px;
+}
+
+nav {
+  padding: 9px;
+  background-color: maroon;
+  border-radius: 5px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  background-color: maroon;
+  color: lemonchiffon;
+  text-decoration: none;
+  padding: 0 12px;
+  font-weight: bold;
+  display: block;
+  padding: 10px 14px;
+}
+
+nav ul li a:hover {
+  background-color: goldenrod;
+  color: black;
+}
+
+aside {
+  background-color: azure;
+  float: left;
+  width: 19%;
+  margin-right: 8px;
+  height: 2030px;
+  border-radius: 17px;
+  border: 3px solid black;
+}
+
+aside ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+aside ul li {
+  display: block;
+}
+
+aside ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 4px;
+  padding: 10px 12px;
+  text-transform: uppercase;
+  display: block;
+  color: darkred;
+}
+
+aside ul li a:hover {
+  background-color: goldenrod;
+  color: black;
+}
+
+main {
+  background-color: azure;
+  float: left;
+  width: 59.4%;
+  margin-right: 7px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+#product1 {
+  text-align: center;
+}
+
+#product1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#product1 .pro {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 40px;
+  width: 42%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 3px dashed;
+  background-color: powderblue;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+}
+
+#product1 .pro:hover {
+  box-shadow: 25px 25px 40px rgba(0, 0, 0, 0.02);
+  transition: 0.2s ease;
+  filter: drop-shadow(8px 8px 8px #7a7b7d);
+}
+
+#product1 .pro img {
+  width: 330px;
+  height: 420px;
+  border-radius: 20px;
+}
+
+#product1 .pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+#product1 .pro .des span {
+  color: firebrick;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: black;
+  font-size: 14px;
+}
+
+#product1 .pro .des i {
+  font-size: 12px;
+  color: gold;
+}
+
+#product1 .pro .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #088178;
+}
+
+ads {
+  background-color: azure;
+  width: 19%;
+  float: left;
+  height: 2030px;
+  border-radius: 17px;
+  border: 3px solid black;
+}
+
+#click1 {
+  width: 100%;
+}
+
+#clicktitle {
+  margin-left: 25px;
+}
+
+#guavaimg {
+  height: 550px;
+  width: 300px;
+  margin-left: 25px;
+  margin-right: 40px;
+  border-radius: 15px;
+  float: left;
+}
+
+#clickdetail {
+  float: left;
+  margin-top: -150px;
+  font-style: italic;
+}
+
+#clickdesc {
+  margin-top: -100px;
+}
+
+#jackfruitimg {
+  height: 550px;
+  width: 400px;
+  margin-left: 25px;
+  margin-right: 40px;
+  border-radius: 15px;
+  float: left;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#guavabth {
+  padding-left: 750px;
+  text-decoration: none;
+}
+
+#guavabth:hover {
+  font-size: large;
+}
+
+#jackfruitbth {
+  padding-left: 1170px;
+  text-decoration: none;
+}
+
+#jackfruitbth:hover {
+  font-size: large;
+}
+
+#honeyimg {
+  height: 200px;
+  width: 350px;
+  margin-left: 25px;
+  margin-right: 40px;
+  border-radius: 15px;
+  float: left;
+}
+
+#honeybth {
+  padding-left: 1170px;
+  text-decoration: none;
+}
+
+#honeybth:hover {
+  font-size: large;
+}
+
+#mangobth {
+  padding-left: 1170px;
+  text-decoration: none;
+}
+
+#mangobth:hover {
+  font-size: large;
+}
+
+#promo {
+  margin-top: 20px;
+  color: darkred;
+}
+
+#p1:hover{
+  font-size: 16.5px;
+  cursor: pointer;
+}
+
+#p2:hover{
+  font-size: 16.5px;
+  cursor: pointer;
+}
+
+#btt {
+  text-decoration: none;
+  color: black;
+  margin-left: 350px;
+  border: 1px solid black;
+  background-color: indianred;
+  color: #FFF;
+}
+
+#btt:hover{
+  background-color: black;
+  color: white;
+}
+
+hr.breakline {
+  background-color: darkcyan ;
+  width: 80%;
+  height: 12px;
+  border-radius: 15px;
+  border-style: inherit;
+}
+
+mark{
+  background-color: blanchedalmond;
+}
+
+footer{
+  clear:both;
+  background-color: rgb(22, 22, 30, 255);
+  color: aliceblue;
+  padding:10px;
+  border-radius: 17px;
+  text-align: center;
+}
+
+#footnote{
+  background-color: maroon;
+  border-radius: 5px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footmark{
+  background-color: yellow;
+  border-radius: 2px;
+}
+
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 58px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+.storenavlist{
+  text-align: center;
+}
+
+hr.breakline1 {
+  background-color: rgb(0, 0, 0);
+  width: 3%;
+  height: 8px;
+  border-radius: 200px;
+}
+

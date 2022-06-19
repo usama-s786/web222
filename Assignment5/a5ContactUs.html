@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="./css/a5Store.css">
+    <link rel="stylesheet" href="./css/a5ContactUs.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="./js/a5valid.js"></script>
+</head>
+
+<body onload="document.body.style.opacity='1'">
+    <div id="container">
+        <header>
+            <h1 id="title">GOLDEN BROOK FARMS</h1>
+            <img id="logo" src="./media/farm.png" alt="farm logo" height="50px" width="50px">
+            <h3 id="quote">Natural food, agriculture grew!</h3>
+        </header>
+
+            <nav>
+                <div>
+                    <ul>
+                        <li title="Click here to visit the Home page"><a href="index.html">Home</a></li>
+                        <li title="Click here to visit the list page"><a href="list.html">List</a></li>
+                        <li title="Click here to visit the table page"><a href="table.html">Table</a></li>
+                        <li title="Click here to visit the image page"><a href="image.html">Image</a></li>
+                        <li title="Click here to visit the audio page"><a href="audio.html">Audio</a></li>
+                        <li title="Click here to visit the video page"><a href="video.html">Video</a></li>
+                        <li title="Click here to view more information about Seneca"><a href="seneca.html">Seneca</a></li>
+                        <li title="Click here to visit a4 page"> <a href="a4_dom.html"> A4 DOM </a></li>
+                        <li title="Click here to visit the test6 page"> <a href="test6.html"> Test 6 </a></li>
+                        <li title="Click here to visit the test7 page"> <a href="test7.html"> Test 7 </a></li>
+                        <li title="Click here to visit our store home page"> <a href="a5Store.html">A5 Store</a> </li>
+                        <li title="Click here to visit our contact page"> <a href="a5ContactUs.html">A5 Contact Us</a> </li>
+                        <li title="Click here to visit the test8 page"> <a href="test8.html"> Test 8 </a></li>
+                        <li title="Click here to visit the declaration page"><a href="honesty.html">Honesty</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <aside id="cuaside">
+            <h2>Contact Information:</h2>
+            <ul id="contactlist">
+                <li><u><b>Phone:</b></u><br> +91-9998868310 /<br> +1(437)375-1345</li><br>
+                <li><u><b>Address:</b></u><br> Behind 1-Ghanti street, Kathodra - Kimamli Rd, Kim, Gujarat 394110, India</li><br>
+                <li><u><b>Email:</b></u><br> usamasidat7@gmail.com</li><br>
+                <li><u><b>Hours of operation:</b></u><br>7 days a week- <br> 7a.m. to 7p.m.</li><br>
+                <li><u><b>WhatsApp Chat:</b></u><br> Click the Whatsapp icon on the far right-bottom of the page to direcly chat with us.</li><br>
+            </ul>
+        </aside>
+
+        <main style="width:79.3%; margin-right: 0px;" >
+            <h1 style="margin-left: 20px;">Contact Us:</h1>
+            <fieldset>
+                <legend>ALL FIELDS ARE REQUIRED!</legend>  
+                <form id="form1" method="post" action="https://httpbin.org/post" onsubmit="return validateAll(this);">
+                    <input type="hidden" name="fullName" value="Usama Sidat" />
+                    <input type="hidden" name="StudentID" value="131034217" />
+                    <br>
+                    <label for="username"><span>*</span>Username:</label>
+                    <input type="text" name="username" id="userID" placeholder="Enter the username" required autofocus>
+                    <br> <label id="usernameErr"></label>
+                    <br>
+                    <label><span>*</span>Gender:</label>
+                    <input class="genderradio" type="radio" name="gender" value="Male" id="male" required>
+                    <label class="genderradio" style="text-align: left; width: auto;" for="male">Male</label>
+                    <input class="genderradio" type="radio" name="gender"value="Female" id="female">
+                    <label class="genderradio" style="text-align: left; width: auto;" for="female">Female</label>
+                    <input class="genderradio" type="radio" name="gender" value="Prefer not to share" id="pnts">
+                    <label class="genderradio" style="text-align: left; width: auto;" for="pnts">Prefer not to share</label>
+                    <br><br>
+                    <label for="age"><span>*</span>Age:</label>
+                    <input type="number" name="age" required min="0" max="999">
+                    <br><br>
+                    <label for="province"><span>*</span>Province:</label>
+                    <select name="province" title="Please select the province">
+                        <option selected value="ON">ON</option>
+                        <option value="AB">AB</option>
+                        <option value="BC">BC</option>
+                        <option value="MB">MB</option>
+                        <option value="NB">NB</option>
+                        <option value="NS">NS</option>
+                        <option value="NT">NT</option>
+                        <option value="NU">NU</option>
+                        <option value="NL">NL</option>
+                        <option value="PE">PE</option>
+                        <option value="QC">QC</option>
+                        <option value="SK">SK</option>
+                        <option value="YT">YT</option>
+                    </select>
+                    <br><br>
+                    <label for="phone"><span>*</span>Phone Number:</label>
+                    <input type="text" name="phone" id="phoneID" placeholder="Enter the phone number" required>
+                    <br><label id="phoneErr"></label>
+                    <br>
+                    <label for="email"><span>*</span>Email:</label>
+                    <input type="email" name="email" placeholder="Enter the email" required>
+                    <br><br>
+                    <label for="comment"><span>*</span>Comment: </label>
+                    <textarea name="comment" placeholder="Leave your questions or the PROMO code here" id="commentID" rows="3" cols="40"></textarea>
+                    <br><label id="commentErr"></label>
+                    <br><br>
+                    <input class="scbuttons" style="margin-left: 165px" title="Submit the details" type="submit">
+                    <input class="scbuttons" type="reset" title="Clear the inputs" value="Clear">
+                    <br><br>
+                </form>
+            </fieldset>
+
+            <br>
+            <h3 id="instructions">Please fill out this form, and we will get back to you within 24 hours. <br>
+            Thank you for your time and patience.
+            <br>Have a good one!
+            </h3>
+            <br>
+            <a href="./a5Store.html" id="cubth">Back to home</a>
+            <br><br><br>
+            <a href="https://wa.me/+919998868310" class="whatsapp_float" target="_blank"> <i class="fa fa-whatsapp whatsapp-icon"></i></a>
+        </main>
+
+        <footer>
+            <p id="footnote"> &copy; Usama Sidat </p>
+            <mark id="footmark">
+                <script>
+                    var dt = new Date(document.lastModified);
+                    document.write('This page was last updated on ' + dt.toLocaleString());
+                </script>
+            </mark>
+            <br><br><br>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 # Assignment 1
 
-###### In this assignment, we used the basic syntax in JavaScript to build some functions.
+###### In this assignment, I used the basic syntax in JavaScript to build some functions.
 
 ## Tasks
 >There were 2 tasks in this assignment:

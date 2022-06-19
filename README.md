@@ -1,5 +1,9 @@
-# Web222
-###### Web Programming Principles.
+# Web222 - Web Programming Principles.
+<br>
+
+**PLEASE DO NOT COPY ANY FILES FROM THIS REPOSITORY**
+
+<br>
 
 ------------------------
 
@@ -14,3 +18,8 @@
 
 Source: [Seneca College Website](https://www.senecacollege.ca/cgi-bin/subject?s1=WEB222)
 
+------------------------
+
+> Course taken during Winter 2022
+
+------------------------
